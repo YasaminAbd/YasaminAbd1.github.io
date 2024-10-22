@@ -1,0 +1,135 @@
+    /* General Styles */
+    body {
+        background-color: #f4f4f4;
+        /* Fallback background color */
+        background-image: url("/imgs/—Pngtree—3d\ rendering\ of\ website\ builder_7231387.jpg");
+        /* Ensure correct path and no special characters */
+        background-size: cover;
+        /* Ensure the background covers the entire page */
+        background-position: center;
+        /* Center the background image */
+        background-attachment: fixed;
+        /* Keep the background fixed while scrolling */
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    /* Header Styling */
+    header {
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .navibar {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu ul li {
+        display: inline;
+    }
+
+    .menu ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .menu ul li a.active {
+        font-weight: bold;
+    }
+
+    #logo {
+        margin-left: auto;
+    }
+
+    /* Main Content */
+    .wrapper {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: rgba(242, 225, 243, 0.671);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    .faq-content h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-family: 'Courier New', monospace;
+    }
+
+    .faq-content p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .faq-content article {
+        margin-bottom: 20px;
+    }
+
+    .faq-question {
+        font-size: 20px;
+        color: #170346;
+        margin-bottom: 10px;
+        font-family: Garamond, serif;
+    }
+
+    .faq-content article p {
+        font-size: 16px;
+        line-height: 1.6;
+        padding-left: 20px;
+        font-family: Georgia, serif;
+    }
+
+    /* Footer Styling */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: auto;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        header .menu {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header .menu ul {
+            flex-direction: column;
+        }
+
+        header .menu ul li {
+            margin-bottom: 10px;
+        }
+
+        .wrapper {
+            padding: 15px;
+        }
+    }
+    .active {
+        background-color: rgba(127, 134, 173, 0.863);
+    }

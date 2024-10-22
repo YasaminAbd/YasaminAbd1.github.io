@@ -1,0 +1,130 @@
+    /* Body background with an image */
+    body {
+        background-image: url("/imgs/—Pngtree—3d\ rendering\ of\ website\ builder_7231387.jpg");
+        /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    /* Header Styling */
+    header {
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .navibar {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu ul li {
+        display: inline;
+    }
+
+    .menu ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .menu ul li a.active {
+        font-weight: bold;
+    }
+
+    #logo {
+        margin-left: auto;
+    }
+
+
+    .content-wrapper {
+        display: flex;
+        font-family: 'Courier New', monospace;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        /* Takes up the remaining space */
+    }
+
+    .profile-container {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .imgPP {
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+        color: #333;
+        margin: 0;
+    }
+
+    p {
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: #333;
+        margin-top: 30px;
+    }
+
+    ul.characteristics {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul.characteristics li {
+        background-color: #520f4e4b;
+        margin: 8px 0;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    /* Footer Styling */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: auto;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+    .active {
+        background-color: rgba(127, 134, 173, 0.863);
+    }

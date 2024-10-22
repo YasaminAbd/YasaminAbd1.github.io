@@ -1,0 +1,105 @@
+        /* Basic styling to ensure visibility */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("/imgs/—Pngtree—3d\ rendering\ of\ website\ builder_7231387.jpg") no-repeat center center fixed;
+            background-size: cover;
+            /* Ensures the image covers the whole page */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            margin: 20px;
+            background-color: #dca4e4cc;
+            font-family: 'Courier New', monospace;
+
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .navibar {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .menu ul li {
+            display: inline;
+        }
+
+        .menu ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .menu ul li a.active {
+            font-weight: bold;
+        }
+
+        #logo {
+            margin-left: auto;
+        }
+
+
+        .footer-container {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .progress {
+            margin: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .active {
+            background-color: rgba(127, 134, 173, 0.863);
+        }

@@ -1,0 +1,188 @@
+    /* Basic Reset and Body Styling */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    body {
+        background-image: url("/imgs/—Pngtree—3d\ rendering\ of\ website\ builder_7231387.jpg");
+        /* Replace with your image path */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    /* Header Styling */
+    header {
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .navibar {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .menu ul li {
+        display: inline;
+    }
+
+    .menu ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .menu ul li a.active {
+        font-weight: bold;
+    }
+
+    #logo {
+        margin-left: auto;
+    }
+
+    /* Main Welcome Section */
+    .wrapper {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #eed9e9ce;
+        color: black;
+        font-family: Georgia, serif;
+    }
+
+    /* About Me Section */
+    .about-me {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        background-color: #eccdec00;
+        /* Background color for the about me section */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Shadow for depth */
+    }
+
+    .about-me .text {
+        max-width: 600px;
+        margin-right: 40px;
+        flex: 1;
+        background-color: rgba(255, 255, 255, 0.808);
+        /* Slightly translucent background for readability */
+        padding: 20px;
+        border-radius: 8px;
+        /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Shadow for depth */
+    }
+
+    .about-me .images {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-me img {
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Additional Info Section */
+    .additional-info {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background-color: #ffffffd2;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Footer Styling */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: auto;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    /* Aside Links Section */
+    .navigation .aside {
+        margin: 30px 0;
+        text-align: center;
+        background-color: rgba(253, 237, 246, 0.712);
+        /* Corrected rgba syntax */
+        padding: 20px;
+        /* Optional: add padding for spacing */
+        border-radius: 8px;
+        /* Optional: add rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Optional: add shadow for depth */
+    }
+
+    .aside ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .aside ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .aside ul li a {
+        color: #333;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+
+    /* Responsive Media Queries */
+    @media (max-width: 768px) {
+        .about-me {
+            flex-direction: column;
+        }
+
+        .about-me .text,
+        .about-me .images {
+            margin: 0;
+        }
+
+
+        .aside ul li a:hover {
+            text-decoration: underline;
+        }
+
+    }
+    .active {
+        background-color: rgba(127, 134, 173, 0.863);
+    }
